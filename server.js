@@ -77,9 +77,9 @@ const server = http.createServer((req, res) => {
     case page == '/api':
       let flipResult = "type 'flip' in the input box"
       if (params['student'] == 'flip') {
-        // const random = Math.floor(Math.random() * banki.questions.length);
-        // console.log(banki.questions[random]);
-        flipResult = Math.random() <= .5 ? banki.questions[0].question : banki.questions[1].question
+        const random = Math.floor(Math.random() * banki.questions.length);
+        console.log(banki.questions[random]);
+        flipResult = banki.questions[random].question
       }
       res.writeHead(200, { 'Content-Type': 'application/json' });
       const objToJson = {
