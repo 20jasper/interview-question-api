@@ -45,8 +45,8 @@ const banki = {
     { question: "test1", type: "behavioral" },
   ]
 };
-const random = Math.floor(Math.random() * banki.questions.length);
-console.log(banki.questions[random]);
+
+export { banki }
 
 // ""
 // ''

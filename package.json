@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "index.html",
+  "type": "module",
   "dependencies": {
     "figlet": "^1.5.2"
   }
