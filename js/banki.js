@@ -1,6 +1,6 @@
 // Any questions on this list are fair game for technical interviews.
 // Resources with most answers at the end.
-const banki = {
+export const banki = {
   questions: [
     {
       question:
@@ -45,8 +45,6 @@ const banki = {
     { question: "test1", type: "behavioral" },
   ]
 };
-
-export { banki }
 
 // ""
 // ''
