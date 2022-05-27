@@ -75,14 +75,17 @@ const server = http.createServer((req, res) => {
       readWrite('otherotherpage.html', 'text/html');
       break;
     case page == '/api':
-      let flipResult = "type 'flip' in the input box"
+      let question = "type 'flip' in the input box"
+      let type = "type 'flip' in the input box"
       if (params['student'] == 'flip') {
         const random = Math.floor(Math.random() * banki.questions.length);
-        flipResult = banki.questions[random].question
+        question = banki.questions[random].question
+        type = banki.questions[random].type
       }
       res.writeHead(200, { 'Content-Type': 'application/json' });
       const objToJson = {
-        question: flipResult,
+        question: question,
+        questionType: type,
       }
       res.end(JSON.stringify(objToJson));
       break;

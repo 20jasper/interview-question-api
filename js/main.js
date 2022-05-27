@@ -8,6 +8,6 @@ async function makeReq() {
 
   console.log(data);
   document.querySelector("#question").textContent = data.question
-  document.querySelector("#personStatus").textContent = data.status
+  document.querySelector("#questionType").textContent = data.questionType
   document.querySelector("#personOccupation").textContent = data.currentOccupation
 }
