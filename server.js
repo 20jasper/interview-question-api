@@ -28,15 +28,7 @@ const server = http.createServer((req, res) => {
       break;
     case page == '/api':
       const random = Math.floor(Math.random() * banki.questions.length);
-      const question = banki.questions[random].question
-      const type = banki.questions[random].type
-
-      res.writeHead(200, { 'Content-Type': 'application/json' });
-      const objToJson = {
-        question: question,
-        questionType: type,
-      }
-      res.end(JSON.stringify(objToJson));
+      res.end(JSON.stringify(banki.questions[random]));
       break;
     case page == '/css/style.css':
       fs.readFile('css/style.css', function (err, data) {
