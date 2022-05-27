@@ -78,12 +78,11 @@ const server = http.createServer((req, res) => {
       let flipResult = "type 'flip' in the input box"
       if (params['student'] == 'flip') {
         const random = Math.floor(Math.random() * banki.questions.length);
-        console.log(banki.questions[random]);
         flipResult = banki.questions[random].question
       }
       res.writeHead(200, { 'Content-Type': 'application/json' });
       const objToJson = {
-        name: flipResult,
+        question: flipResult,
       }
       res.end(JSON.stringify(objToJson));
       break;
