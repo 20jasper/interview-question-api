@@ -1,7 +1,7 @@
 import http from 'http'
 import fs from 'fs'
 import url from 'url'
-import querystring from 'querystring'
+// import querystring from 'querystring'
 import figlet from 'figlet'
 import { banki } from './js/banki.js'
 const server = http.createServer((req, res) => {
@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
   }
 
   const page = url.parse(req.url).pathname;
-  const params = querystring.parse(url.parse(req.url).query);
+  // const params = querystring.parse(url.parse(req.url).query);
   switch (true) {
     case page == '/':
       readWrite('index.html', 'text/html');
