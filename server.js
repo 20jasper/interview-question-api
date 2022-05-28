@@ -19,12 +19,6 @@ const server = http.createServer((req, res) => {
 		case page == "/":
 			readWrite("index.html", "text/html");
 			break;
-		case page == "/otherpage":
-			readWrite("otherpage.html", "text/html");
-			break;
-		case page == "/otherotherpage":
-			readWrite("otherotherpage.html", "text/html");
-			break;
 		case page == "/api":
 			const random = Math.floor(Math.random() * banki.questions.length);
 			res.end(JSON.stringify(banki.questions[random]));
