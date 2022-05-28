@@ -73,39 +73,42 @@ export const banki = {
     { question: "Describe z-index and how stacking context is formed.", type: "CSS" },
     { question: "Describe BFC (Block Formatting Context) and how it works.", type: "CSS" },
     { question: "What are the various clearing techniques and which is appropriate for what context?", type: "CSS" },
-    { question: "test1", type: "technical" },
-    { question: "test1", type: "technical" },
-    { question: "test1", type: "technical" },
-    { question: "test1", type: "technical" },
-    { question: "test1", type: "technical" },
+    { question: 
+        "Explain CSS sprites, and how you would implement them on a page or site",
+      type: "CSS" },
+    { question: 
+        "How would you approach fixing browser-specific styling issues?", 
+      type: "CSS" },
+    { question: 
+        "How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?", 
+      type: "CSS" },
+    { question: 
+        "What are the different ways to visually hide content (and make it available only for screen readers)?", 
+      type: "CSS" },
+    { question: "Have you ever used a grid system, and if so, what do you prefer?", type: "CSS" },
+    { question: "Have you used or implemented media queries or mobile specific layouts/CSS?", type: "CSS" },
+    { question: "Are you familiar with styling SVG?", type: "CSS" },
+    { question: "Can you give an example of an @media property other than screen?", type: "CSS" },
+    { question: "What are some of the 'gotchas' for writing efficient CSS?", type: "CSS" },
+    { question: "What are the advantages/disadvantages of using CSS preprocessors?", type: "CSS" },
+    { question: "Describe what you like and dislike about the CSS preprocessors you have used.", type: "CSS" },
+    { question: "How would you implement a web design comp that uses non-standard fonts?", type: "CSS" },
+    { question: "Explain how a browser determines what elements match a CSS selector.", type: "CSS" },
+    { question: "Describe pseudo-elements and discuss what they are used for", type: "CSS" },
+    { question: "Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.", type: "CSS" },
+    { question: "What does * { box-sizing: border-box; } do? What are its advantages?", type: "CSS" },
+    { question: "What is the CSS display property and can you give a few examples of its use?", type: "CSS" },
+    { question: "What's the difference between inline and inline-block?", type: "CSS" },
+    { question: "What's the difference between a relative, fixed, absolute and statically positioned element?", type: "CSS" },
+    { question: "What existing CSS frameworks have you used locally, or in production? How would you change/improve them?", type: "CSS" },
+    { question: "Have you played around with the new CSS Flexbox or Grid specs?", type: "CSS" },
+    { question: "Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?", type: "CSS" },
+    { question: "How is responsive design different from adaptive design?", type: "CSS" },
+    { question: "Have you ever worked with retina graphics? If so, when and what techniques did you use?", type: "CSS" },
+    { question: "Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?", type: "CSS" },
   ]
 };
 
-// "Explain CSS sprites, and how you would implement them on a page or site."
-// "How would you approach fixing browser-specific styling issues?"
-// "How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?"
-// "What are the different ways to visually hide content (and make it available only for screen readers)?"
-// "Have you ever used a grid system, and if so, what do you prefer?"
-// "Have you used or implemented media queries or mobile specific layouts/CSS?"
-// "Are you familiar with styling SVG?"
-// "Can you give an example of an @media property other than screen?"
-// 'What are some of the "gotchas" for writing efficient CSS?'
-// "What are the advantages/disadvantages of using CSS preprocessors?"
-// "Describe what you like and dislike about the CSS preprocessors you have used."
-// "How would you implement a web design comp that uses non-standard fonts?"
-// "Explain how a browser determines what elements match a CSS selector."
-// "Describe pseudo-elements and discuss what they are used for."
-// Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
-// "What does * { box-sizing: border-box; } do? What are its advantages?"
-// "What is the CSS display property and can you give a few examples of its use?"
-// "What's the difference between inline and inline-block?"
-// What's the difference between a relative, fixed, absolute and statically positioned element?
-// "What existing CSS frameworks have you used locally, or in production? How would you change/improve them?"
-// "Have you played around with the new CSS Flexbox or Grid specs?"
-// Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
-// How is responsive design different from adaptive design?
-// Have you ever worked with retina graphics? If so, when and what techniques did you use?
-// Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?
 // Explain event delegation
 // Explain how this works in JavaScript
 // Explain how prototypal inheritance works
