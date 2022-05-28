@@ -1,9 +1,10 @@
-document.querySelector('#clickMe').addEventListener('click', makeReq)
+document.querySelector("#clickMe").addEventListener("click", makeReq);
 
 async function makeReq() {
-
-  const res = await fetch(`/api`)
-  const data = await res.json()
-  document.querySelector("#question").textContent = data.question
-  document.querySelector("#questionType").textContent = data.type
+	const res = await fetch(`/api`);
+	const data = await res.json();
+	document.querySelector("#question").textContent = data.question;
+	let qType = data.type;
+	document.querySelector("#questionType").textContent = `${qType.charAt(0).toUpperCase() + qType.slice(1)}`;
+	document.querySelector("main").classList.remove("hidden");
 }
