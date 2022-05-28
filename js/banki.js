@@ -264,6 +264,77 @@ export const banki = {
         "Create a for loop that iterates up to 100 while outputting \"fizz\" at multiples of 3, \"buzz\" at multiples of 5 and \"fizzbuzz\" at multiples of 3 and 5",
       type: "JavaScript"
     },
+    {
+      question:
+        "What is recursion and give an example using javascript?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What are types?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What are data structures?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is an algorithm? ",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is scope / lexical scope in javascript?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is polymorphism?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is encapsulation?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is a Linked List?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is a Doubly Linked List?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is a Queue?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is a Stack?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is a Hash Table?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is a Doubly Linked List",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is a Doubly Linked List",
+      type: "CS Theory"
+    },
+
   ]
 };
 
@@ -325,22 +396,6 @@ export const banki = {
 // "What is libuv?"
 // "What are some of the most popular modules of Node.js?"
 // "What is EventEmitter in Node.js?"
-// "What is recursion and give an example using javascript?"
-// "What are types?"
-// "What are data structures?"
-// "What is an algorithm?"
-// "What is a Linked List?"
-// "What is a Doubly Linked List?"
-// "What is a Queue?"
-// "What is a Stack?""
-// "What is a Hash Table?"
-// "What is a Heap?"
-// "What is a Trie?"
-// "What is a Tree?"
-// "What is a Binary Search Tree?"
-// "What is a Disjoint Set?"
-// "What is a Bloom Filter?"
-// "Demonstrate Bubble Sort and explain when you might use it?"
-// "Demonstrate Insertion Sort and explain when you might use it?"
-// "Demonstrate Merge Sort and explain when you might use it?"
-// "Demonstrate Quicksort and explain when you might use it?"
+
+//CS Theory
+// 
