@@ -42,13 +42,160 @@ export const banki = {
         "Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way",
       type: "behavioral"
     },
-    { question: "test1", type: "behavioral" },
+    {
+      question:
+        "Explain event delegation",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Explain how this works in JavaScript",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Explain how prototypal inheritance works",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "What do you think of AMD vs CommonJS?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Explain why the following doesn't work as an IIFE: function foo(){ }();. What needs to be changed to properly make it an IIFE?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "What's the difference between a variable that is: null, undefined or undeclared? How would you go about checking for any of these states?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "What is a closure, and how/why would you use one?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "What's a typical use case for anonymous functions?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "How do you organize your code? (module pattern, classical inheritance?)",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "What's the difference between host objects and native objects?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Difference between: function Person(){}, var person = Person(), and var person = new Person()?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Explain Function.prototype.bind.",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "When would you use document.write()?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "What's the difference between feature detection, feature inference, and using the UA string?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Explain Ajax in as much detail as possible.",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "What are the advantages and disadvantages of using Ajax?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Explain how JSONP works (and how it's not really Ajax).",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Have you ever used JavaScript templating? If so, what libraries have you used?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Explain 'hoisting'.",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Describe event bubbling.",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "What's the difference between an \"attribute\" and a \"property\"?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Why is extending built-in JavaScript objects not a good idea?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Difference between document load event and document DOMContentLoaded event?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "What is the difference between == and ===?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Explain the same-origin policy with regards to JavaScript.",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Make this work: duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "Why is it called a Ternary expression, what does the word \"Ternary\" indicate?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        "What is \"use strict\";? what are the advantages and disadvantages to using it?",
+      type: "JavaScript"
+    },
+    {
+      question:
+        " Create a for loop that iterates up to 100 while outputting \"fizz\" at multiples of 3, \"buzz\" at multiples of 5 and \"fizzbuzz\" at multiples of 3 and 5",
+      type: "JavaScript"
+    },
   ]
 };
 
-// ""
-// ''
-// ""
+
 // "Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?"
 // "Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?"
 // "Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?"
@@ -105,37 +252,8 @@ export const banki = {
 // How is responsive design different from adaptive design?
 // Have you ever worked with retina graphics? If so, when and what techniques did you use?
 // Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?
-// Explain event delegation
-// Explain how this works in JavaScript
-// Explain how prototypal inheritance works
-// "What do you think of AMD vs CommonJS?"
-// Explain why the following doesn't work as an IIFE: function foo(){ }();. What needs to be changed to properly make it an IIFE?
-// What's the difference between a variable that is: null, undefined or undeclared? How would you go about checking for any of these states?
-// "What is a closure, and how/why would you use one?"
-// Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?
-// What's a typical use case for anonymous functions?
-// "How do you organize your code? (module pattern, classical inheritance?)"
-// What's the difference between host objects and native objects?
-// Difference between: function Person(){}, var person = Person(), and var person = new Person()?
-// What's the difference between .call and .apply?
-// Explain Function.prototype.bind.
-// "When would you use document.write()?"
-// "What's the difference between feature detection, feature inference, and using the UA string?"
-// "Explain Ajax in as much detail as possible."
-// "What are the advantages and disadvantages of using Ajax?"
-// "Explain how JSONP works (and how it's not really Ajax)."
-// "Have you ever used JavaScript templating? If so, what libraries have you used?"
-// "Explain 'hoisting'."
-// "Describe event bubbling."
-// "What's the difference between an "attribute" and a "property"?"
-// "Why is extending built-in JavaScript objects not a good idea?"
-// Difference between document load event and document DOMContentLoaded event?
-// "What is the difference between == and ===?"
-// Explain the same-origin policy with regards to JavaScript.
-// Make this work: duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
-// Why is it called a Ternary expression, what does the word "Ternary" indicate?
-// What is "use strict";? what are the advantages and disadvantages to using it?
-// Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5
+
+
 // Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
 // Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
 // Explain what a single page app is and how to make one SEO-friendly.
@@ -159,6 +277,7 @@ export const banki = {
 // What are the benefits of using spread syntax and how is it different from rest syntax?
 // How can you share code between files?
 // Why you might want to create static class members?
+
 // Javascript General
 // Can you name two programming paradigms important for JavaScript app developers?
 // What is functional programming?
