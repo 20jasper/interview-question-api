@@ -42,44 +42,45 @@ export const banki = {
         "Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way",
       type: "behavioral"
     },
-    { question: "test1", type: "behavioral" },
+    { question: "Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?", type: "behavioral" },
+    { question: "Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?", type: "behavioral" },
+    { question: "Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?", type: "behavioral" },
+    { question: "Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?", type: "behavioral" },
+    { question: "Tell me about yourself.", type: "behavioral" },
+    { question: "Tell me about your experience at 100Devs.", type: "behavioral" },
+    { question: "What do you know about our company?", type: "behavioral" },
+    { question: "Why do you want to work for us?", type: "behavioral" },
+    { question: "Why are you interested in this opportunity?", type: "behavioral" },
+    { question: "Tell me about your dream job?  What do you really want to do with your career?", type: "behavioral" },
+    { question: "Tell me a time when you failed.", type: "behavioral" },
+    { question: "What do you read on a regular basis?", type: "behavioral" },
+    { question: "What's some critical feedback you've gotten recently?", type: "behavioral" },
+    { question: "Do you have any questions?", type: "behavioral" },
+    { question: "What does a doctype do?", type: "technical" },
+    { question: "How do you serve a page with content in multiple languages?", type: "technical" },
+    { question: "What kind of things must you be wary of when design or developing for multilingual sites?", type: "technical" },
+    { question: "What are data- attributes good for?", type: "technical" },
+    { question: "Consider HTML5 as an open web platform. What are the building blocks of HTML5?", type: "technical" },
+    { question: "Describe the difference between a cookie, sessionStorage and localStorage.", type: "technical" },
+    { question: "Describe the difference between <script>, <script async> and <script defer>.", type: "technical" },
+    { question: "Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?", type: "technical" },
+    { question: "What is progressive rendering?", type: "technical" },
+    { question: "Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.", type: "technical" },
+    { question: "Have you used different HTML templating languages before?", type: "technical" },
+    { question: "What is CSS selector specificity and how does it work?", type: "technical" },
+    { question: "What's the difference between 'resetting' and 'normalizing' CSS? Which would you choose, and why?", type: "technical" },
+    { question: "Describe floats and how they work.", type: "technical" },
+    { question: "Describe z-index and how stacking context is formed.", type: "technical" },
+    { question: "Describe BFC (Block Formatting Context) and how it works.", type: "technical" },
+    { question: "What are the various clearing techniques and which is appropriate for what context?", type: "technical" },
+    { question: "test1", type: "technical" },
+    { question: "test1", type: "technical" },
+    { question: "test1", type: "technical" },
+    { question: "test1", type: "technical" },
+    { question: "test1", type: "technical" },
   ]
 };
 
-// ""
-// ''
-// ""
-// "Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?"
-// "Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?"
-// "Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?"
-// "Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?"
-// "Tell me about yourself."
-// "Tell me about your experience at 100Devs. "
-// "What do you know about our company?"
-// "Why do you want to work for us?"
-// "Why are you interested in this opportunity?"
-// "Tell me about your dream job?  What do you really want to do with your career?"
-// "Tell me a time when you failed."
-// "What do you read on a regular basis?"
-// "What's some critical feedback you've gotten recently?"
-// "Do you have any questions?"
-// "What does a doctype do?"
-// "How do you serve a page with content in multiple languages?"
-// "What kind of things must you be wary of when design or developing for multilingual sites?"
-// "What are data- attributes good for?"
-// "Consider HTML5 as an open web platform. What are the building blocks of HTML5?"
-// "Describe the difference between a cookie, sessionStorage and localStorage."
-// "Describe the difference between <script>, <script async> and <script defer>."
-// "Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?"
-// "What is progressive rendering?"
-// "Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute."
-// "Have you used different HTML templating languages before?"
-// "What is CSS selector specificity and how does it work?"
-// "What's the difference between 'resetting' and 'normalizing' CSS? Which would you choose, and why?"
-// "Describe floats and how they work."
-// "Describe z-index and how stacking context is formed."
-// "Describe BFC (Block Formatting Context) and how it works."
-// "What are the various clearing techniques and which is appropriate for what context?"
 // "Explain CSS sprites, and how you would implement them on a page or site."
 // "How would you approach fixing browser-specific styling issues?"
 // "How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?"
