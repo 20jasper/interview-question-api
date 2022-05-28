@@ -883,13 +883,53 @@ export const banki = {
     },
     {
       question:
-        "What is a Doubly Linked List",
+        "What is a Heap?",
       type: "CS Theory"
     },
     {
       question:
-        "What is a Doubly Linked List",
+        "What is a Trie?",
       type: "CS Theory"
     },
+    {
+      question:
+        "What is a Tree?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is a Binary Search Tree?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is a Disjoint Set?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "What is a Bloom Filter?",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "Demonstrate Bubble Sort and explain when you might use it.",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "Demonstrate Insertion Sort and explain when you might use it.",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "Demonstrate Merge Sort and explain when you might use it.",
+      type: "CS Theory"
+    },
+    {
+      question:
+        "Demonstrate Quicksort and explain when you might use it.",
+      type: "CS Theory"
+    }
   ]
 };
