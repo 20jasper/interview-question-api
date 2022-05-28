@@ -483,6 +483,141 @@ export const banki = {
     },
     {
       question:
+        "What is Node.js? Where can you use it?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Why use Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are the features of Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "How do you update NPM to a new version in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Why is Node.js Single-threaded?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Explain callback in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is callback hell in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "How do you prevent/fix callback hell?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Explain the role of REPL in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Name the types of API functions in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are the functionalities of NPM in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is the difference between Node.js and Ajax?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are “streams” in Node.js? Explain the different types of streams present in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Explain chaining in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are Globals in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is Event-driven programming?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is Event loop in Node.js work? And How does it work?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is the purpose of module.exports in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is the difference between Asynchronous and Non-blocking?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is Tracing in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "How will you debug an application in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Difference between setImmediate() vs setTimeout()?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is process.nextTick()",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is package.json? What is it used for?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is libuv?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are some of the most popular modules of Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is EventEmitter in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
         'What advantage is there for using the arrow syntax for a method in a constructor?',
       type: "JavaScript"
     },
@@ -550,6 +685,141 @@ export const banki = {
       question:
         'What is asynchronous programming, and why is it important in JavaScript?',
       type: "JavaScript"
+    },
+    {
+      question:
+        "What is Node.js? Where can you use it?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Why use Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are the features of Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "How do you update NPM to a new version in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Why is Node.js Single-threaded?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Explain callback in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is callback hell in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "How do you prevent/fix callback hell?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Explain the role of REPL in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Name the types of API functions in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are the functionalities of NPM in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is the difference between Node.js and Ajax?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are “streams” in Node.js? Explain the different types of streams present in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Explain chaining in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are Globals in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is Event-driven programming?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is Event loop in Node.js work? And How does it work?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is the purpose of module.exports in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is the difference between Asynchronous and Non-blocking?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is Tracing in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "How will you debug an application in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Difference between setImmediate() vs setTimeout()?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is process.nextTick()",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is package.json? What is it used for?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is libuv?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are some of the most popular modules of Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is EventEmitter in Node.js?",
+      type: "Node.js"
     },
     {
       question:
@@ -623,4 +893,3 @@ export const banki = {
     },
   ]
 };
-
