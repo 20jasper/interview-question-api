@@ -264,83 +264,142 @@ export const banki = {
         "Create a for loop that iterates up to 100 while outputting \"fizz\" at multiples of 3, \"buzz\" at multiples of 5 and \"fizzbuzz\" at multiples of 3 and 5",
       type: "JavaScript"
     },
+    {
+      question:
+        "What is Node.js? Where can you use it?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Why use Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are the features of Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "How do you update NPM to a new version in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Why is Node.js Single-threaded?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Explain callback in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is callback hell in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "How do you prevent/fix callback hell?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Explain the role of REPL in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Name the types of API functions in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are the functionalities of NPM in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is the difference between Node.js and Ajax?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are “streams” in Node.js? Explain the different types of streams present in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Explain chaining in Node.js.",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are Globals in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is Event-driven programming?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is Event loop in Node.js work? And How does it work?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is the purpose of module.exports in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is the difference between Asynchronous and Non-blocking?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is Tracing in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "How will you debug an application in Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "Difference between setImmediate() vs setTimeout()?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is process.nextTick()",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is package.json? What is it used for?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is libuv?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What are some of the most popular modules of Node.js?",
+      type: "Node.js"
+    },
+    {
+      question:
+        "What is EventEmitter in Node.js?",
+      type: "Node.js"
+    },
   ]
 };
 
-// Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
-// Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
-// Explain what a single page app is and how to make one SEO-friendly.
-// What is the extent of your experience with Promises and/or their polyfills?
-// What are the pros and cons of using Promises instead of callbacks?
-// What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
-// What tools and techniques do you use debugging JavaScript code?
-// What language constructions do you use for iterating over object properties and array items?
-// Explain the difference between mutable and immutable objects.
-// Explain the difference between synchronous and asynchronous functions.
-// What is event loop? What is the difference between call stack and task queue?
-// Explain the differences on the usage of foo between function foo() {} and var foo = function() {}
-// What are the differences between variables created using let, var or const?
-// What are the differences between ES6 class and ES5 function constructors?
-// Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?
-// What advantage is there for using the arrow syntax for a method in a constructor?
-// What is the definition of a higher-order function?
-// Can you give an example for destructuring an object or an array?
-// ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?
-// Can you give an example of a curry function and why this syntax offers an advantage?
-// What are the benefits of using spread syntax and how is it different from rest syntax?
-// How can you share code between files?
-// Why you might want to create static class members?
 
-// Javascript General
-// Can you name two programming paradigms important for JavaScript app developers?
-// What is functional programming?
-// What is the difference between classical inheritance and prototypal inheritance?
-// What are the pros and cons of functional programming vs object-oriented programming?
-// What are two-way data binding and one-way data flow, and how are they different?
-// What is asynchronous programming, and why is it important in JavaScript?
-// What is Node.js? Where can you use it?
-// Why use Node.js?
-// What are the features of Node.js?
-// How do you update NPM to a new version in Node.js?
-// Why is Node.js Single-threaded?
-// "Explain callback in Node.js."
-// "What is callback hell in Node.js?"
-// "How do you prevent/fix callback hell?"
-// "Explain the role of REPL in Node.js."
-// "Name the types of API functions in Node.js."
-// "What are the functionalities of NPM in Node.js?"
-// "What is the difference between Node.js and Ajax?"
-// "What are “streams” in Node.js? Explain the different types of streams present in Node.js."
-// "Explain chaining in Node.js."
-// "What are Globals in Node.js?"
-// "What is Event-driven programming?"
-// "What is Event loop in Node.js work? And How does it work?"
-// "What is the purpose of module.exports in Node.js?"
-// "What is the difference between Asynchronous and Non-blocking?"
-// "What is Tracing in Node.js?"
-// "How will you debug an application in Node.js?"
-// "Difference between setImmediate() vs setTimeout()?"
-// "What is process.nextTick()"
-// "What is package.json? What is it used for?"
-// "What is libuv?"
-// "What are some of the most popular modules of Node.js?"
-// "What is EventEmitter in Node.js?"
-// "What is recursion and give an example using javascript?"
-// "What are types?"
-// "What are data structures?"
-// "What is an algorithm?"
-// "What is a Linked List?"
-// "What is a Doubly Linked List?"
-// "What is a Queue?"
-// "What is a Stack?""
-// "What is a Hash Table?"
-// "What is a Heap?"
-// "What is a Trie?"
-// "What is a Tree?"
-// "What is a Binary Search Tree?"
-// "What is a Disjoint Set?"
-// "What is a Bloom Filter?"
-// "Demonstrate Bubble Sort and explain when you might use it?"
-// "Demonstrate Insertion Sort and explain when you might use it?"
-// "Demonstrate Merge Sort and explain when you might use it?"
-// "Demonstrate Quicksort and explain when you might use it?"
