@@ -6,5 +6,5 @@ async function makeReq() {
 	document.querySelector("#question").textContent = data.question;
 	let qType = data.type;
 	document.querySelector("#questionType").textContent = `${qType.charAt(0).toUpperCase() + qType.slice(1)}`;
-	document.querySelector("main").classList.remove("hidden");
+	document.querySelector("section").classList.remove("hidden");
 }

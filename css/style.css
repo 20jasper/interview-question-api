@@ -5,27 +5,29 @@ html * {
 	box-sizing: border-box;
 }
 
-body > * {
-	border: color;
-}
-
 body {
 	background-color: #dedbe0;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	height: 100vh;
 	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
 }
 
 .hidden {
 	display: none;
 }
 
-main {
+section {
 	margin-top: 2rem;
-	width: 40%;
+	width: 60%;
 	height: auto;
 	background-color: #4498b8;
 	color: white;
@@ -36,7 +38,7 @@ main {
 	position: relative;
 }
 
-main::before {
+section::before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -47,6 +49,7 @@ main::before {
 }
 
 h1 {
+	margin-top: 0;
 	color: #25262e;
 	font-size: 3rem;
 }
