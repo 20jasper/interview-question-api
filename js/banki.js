@@ -42,69 +42,43 @@ export const banki = {
         "Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way",
       type: "behavioral"
     },
+    { question: 
+        "Explain CSS sprites, and how you would implement them on a page or site",
+      type: "CSS" },
+    { question: 
+        "How would you approach fixing browser-specific styling issues?", 
+      type: "CSS" },
+    { question: 
+        "How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?", 
+      type: "CSS" },
+    { question: 
+        "What are the different ways to visually hide content (and make it available only for screen readers)?", 
+      type: "CSS" },
+    { question: "Have you ever used a grid system, and if so, what do you prefer?", type: "CSS" },
+    { question: "Have you used or implemented media queries or mobile specific layouts/CSS?", type: "CSS" },
+    { question: "Are you familiar with styling SVG?", type: "CSS" },
+    { question: "Can you give an example of an @media property other than screen?", type: "CSS" },
+    { question: "What are some of the 'gotchas' for writing efficient CSS?", type: "CSS" },
+    { question: "What are the advantages/disadvantages of using CSS preprocessors?", type: "CSS" },
+    { question: "Describe what you like and dislike about the CSS preprocessors you have used.", type: "CSS" },
+    { question: "How would you implement a web design comp that uses non-standard fonts?", type: "CSS" },
+    { question: "Explain how a browser determines what elements match a CSS selector.", type: "CSS" },
+    { question: "Describe pseudo-elements and discuss what they are used for", type: "CSS" },
+    { question: "Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.", type: "CSS" },
+    { question: "What does * { box-sizing: border-box; } do? What are its advantages?", type: "CSS" },
+    { question: "What is the CSS display property and can you give a few examples of its use?", type: "CSS" },
+    { question: "What's the difference between inline and inline-block?", type: "CSS" },
+    { question: "What's the difference between a relative, fixed, absolute and statically positioned element?", type: "CSS" },
+    { question: "What existing CSS frameworks have you used locally, or in production? How would you change/improve them?", type: "CSS" },
+    { question: "Have you played around with the new CSS Flexbox or Grid specs?", type: "CSS" },
+    { question: "Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?", type: "CSS" },
+    { question: "How is responsive design different from adaptive design?", type: "CSS" },
+    { question: "Have you ever worked with retina graphics? If so, when and what techniques did you use?", type: "CSS" },
+    { question: "Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?", type: "CSS" },
     { question: "test1", type: "behavioral" },
   ]
 };
 
-// ""
-// ''
-// ""
-// "Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?"
-// "Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?"
-// "Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?"
-// "Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?"
-// "Tell me about yourself."
-// "Tell me about your experience at 100Devs. "
-// "What do you know about our company?"
-// "Why do you want to work for us?"
-// "Why are you interested in this opportunity?"
-// "Tell me about your dream job?  What do you really want to do with your career?"
-// "Tell me a time when you failed."
-// "What do you read on a regular basis?"
-// "What's some critical feedback you've gotten recently?"
-// "Do you have any questions?"
-// "What does a doctype do?"
-// "How do you serve a page with content in multiple languages?"
-// "What kind of things must you be wary of when design or developing for multilingual sites?"
-// "What are data- attributes good for?"
-// "Consider HTML5 as an open web platform. What are the building blocks of HTML5?"
-// "Describe the difference between a cookie, sessionStorage and localStorage."
-// "Describe the difference between <script>, <script async> and <script defer>."
-// "Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?"
-// "What is progressive rendering?"
-// "Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute."
-// "Have you used different HTML templating languages before?"
-// "What is CSS selector specificity and how does it work?"
-// "What's the difference between 'resetting' and 'normalizing' CSS? Which would you choose, and why?"
-// "Describe floats and how they work."
-// "Describe z-index and how stacking context is formed."
-// "Describe BFC (Block Formatting Context) and how it works."
-// "What are the various clearing techniques and which is appropriate for what context?"
-// "Explain CSS sprites, and how you would implement them on a page or site."
-// "How would you approach fixing browser-specific styling issues?"
-// "How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?"
-// "What are the different ways to visually hide content (and make it available only for screen readers)?"
-// "Have you ever used a grid system, and if so, what do you prefer?"
-// "Have you used or implemented media queries or mobile specific layouts/CSS?"
-// "Are you familiar with styling SVG?"
-// "Can you give an example of an @media property other than screen?"
-// 'What are some of the "gotchas" for writing efficient CSS?'
-// "What are the advantages/disadvantages of using CSS preprocessors?"
-// "Describe what you like and dislike about the CSS preprocessors you have used."
-// "How would you implement a web design comp that uses non-standard fonts?"
-// "Explain how a browser determines what elements match a CSS selector."
-// "Describe pseudo-elements and discuss what they are used for."
-// Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
-// "What does * { box-sizing: border-box; } do? What are its advantages?"
-// "What is the CSS display property and can you give a few examples of its use?"
-// "What's the difference between inline and inline-block?"
-// What's the difference between a relative, fixed, absolute and statically positioned element?
-// "What existing CSS frameworks have you used locally, or in production? How would you change/improve them?"
-// "Have you played around with the new CSS Flexbox or Grid specs?"
-// Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
-// How is responsive design different from adaptive design?
-// Have you ever worked with retina graphics? If so, when and what techniques did you use?
-// Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?
 // Explain event delegation
 // Explain how this works in JavaScript
 // Explain how prototypal inheritance works
