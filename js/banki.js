@@ -408,6 +408,151 @@ export const banki = {
     },
     {
       question:
+        'Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'Explain what a single page app is and how to make one SEO-friendly.',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What is the extent of your experience with Promises and/or their polyfills?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What are the pros and cons of using Promises instead of callbacks?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What tools and techniques do you use debugging JavaScript code?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What language constructions do you use for iterating over object properties and array items?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'Explain the difference between mutable and immutable objects.',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'Explain the difference between synchronous and asynchronous functions.',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What is event loop? What is the difference between call stack and task queue?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'Explain the differences on the usage of foo between function foo() {} and var foo = function() {}',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What are the differences between variables created using let, var or const?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What are the differences between ES6 class and ES5 function constructors?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What advantage is there for using the arrow syntax for a method in a constructor?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What is the definition of a higher-order function?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'Can you give an example for destructuring an object or an array?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'Can you give an example of a curry function and why this syntax offers an advantage?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What are the benefits of using spread syntax and how is it different from rest syntax?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'How can you share code between files?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'Why you might want to create static class members?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'Can you name two programming paradigms important for JavaScript app developers?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What is functional programming?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What is the difference between classical inheritance and prototypal inheritance?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What are the pros and cons of functional programming vs object-oriented programming?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What are two-way data binding and one-way data flow, and how are they different?',
+      type: "JavaScript"
+    },
+    {
+      question:
+        'What is asynchronous programming, and why is it important in JavaScript?',
+      type: "JavaScript"
+    },
+    {
+      question:
         "What is recursion and give an example using javascript?",
       type: "CS Theory"
     },
@@ -479,64 +624,3 @@ export const banki = {
   ]
 };
 
-// Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
-// Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
-// Explain what a single page app is and how to make one SEO-friendly.
-// What is the extent of your experience with Promises and/or their polyfills?
-// What are the pros and cons of using Promises instead of callbacks?
-// What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
-// What tools and techniques do you use debugging JavaScript code?
-// What language constructions do you use for iterating over object properties and array items?
-// Explain the difference between mutable and immutable objects.
-// Explain the difference between synchronous and asynchronous functions.
-// What is event loop? What is the difference between call stack and task queue?
-// Explain the differences on the usage of foo between function foo() {} and var foo = function() {}
-// What are the differences between variables created using let, var or const?
-// What are the differences between ES6 class and ES5 function constructors?
-// Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?
-// What advantage is there for using the arrow syntax for a method in a constructor?
-// What is the definition of a higher-order function?
-// Can you give an example for destructuring an object or an array?
-// ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?
-// Can you give an example of a curry function and why this syntax offers an advantage?
-// What are the benefits of using spread syntax and how is it different from rest syntax?
-// How can you share code between files?
-// Why you might want to create static class members?
-
-// Javascript General
-// Can you name two programming paradigms important for JavaScript app developers?
-// What is functional programming?
-// What is the difference between classical inheritance and prototypal inheritance?
-// What are the pros and cons of functional programming vs object-oriented programming?
-// What are two-way data binding and one-way data flow, and how are they different?
-// What is asynchronous programming, and why is it important in JavaScript?
-// What is Node.js? Where can you use it?
-// Why use Node.js?
-// What are the features of Node.js?
-// How do you update NPM to a new version in Node.js?
-// Why is Node.js Single-threaded?
-// "Explain callback in Node.js."
-// "What is callback hell in Node.js?"
-// "How do you prevent/fix callback hell?"
-// "Explain the role of REPL in Node.js."
-// "Name the types of API functions in Node.js."
-// "What are the functionalities of NPM in Node.js?"
-// "What is the difference between Node.js and Ajax?"
-// "What are “streams” in Node.js? Explain the different types of streams present in Node.js."
-// "Explain chaining in Node.js."
-// "What are Globals in Node.js?"
-// "What is Event-driven programming?"
-// "What is Event loop in Node.js work? And How does it work?"
-// "What is the purpose of module.exports in Node.js?"
-// "What is the difference between Asynchronous and Non-blocking?"
-// "What is Tracing in Node.js?"
-// "How will you debug an application in Node.js?"
-// "Difference between setImmediate() vs setTimeout()?"
-// "What is process.nextTick()"
-// "What is package.json? What is it used for?"
-// "What is libuv?"
-// "What are some of the most popular modules of Node.js?"
-// "What is EventEmitter in Node.js?"
-
-//CS Theory
-// 
