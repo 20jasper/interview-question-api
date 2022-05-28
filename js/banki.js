@@ -73,18 +73,26 @@ export const banki = {
     { question: "Describe z-index and how stacking context is formed.", type: "CSS" },
     { question: "Describe BFC (Block Formatting Context) and how it works.", type: "CSS" },
     { question: "What are the various clearing techniques and which is appropriate for what context?", type: "CSS" },
-    { question: 
+    {
+      question:
         "Explain CSS sprites, and how you would implement them on a page or site",
-      type: "CSS" },
-    { question: 
-        "How would you approach fixing browser-specific styling issues?", 
-      type: "CSS" },
-    { question: 
-        "How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?", 
-      type: "CSS" },
-    { question: 
-        "What are the different ways to visually hide content (and make it available only for screen readers)?", 
-      type: "CSS" },
+      type: "CSS"
+    },
+    {
+      question:
+        "How would you approach fixing browser-specific styling issues?",
+      type: "CSS"
+    },
+    {
+      question:
+        "How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?",
+      type: "CSS"
+    },
+    {
+      question:
+        "What are the different ways to visually hide content (and make it available only for screen readers)?",
+      type: "CSS"
+    },
     { question: "Have you ever used a grid system, and if so, what do you prefer?", type: "CSS" },
     { question: "Have you used or implemented media queries or mobile specific layouts/CSS?", type: "CSS" },
     { question: "Are you familiar with styling SVG?", type: "CSS" },
@@ -106,7 +114,7 @@ export const banki = {
     { question: "How is responsive design different from adaptive design?", type: "CSS" },
     { question: "Have you ever worked with retina graphics? If so, when and what techniques did you use?", type: "CSS" },
     { question: "Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?", type: "CSS" },
-     {
+    {
       question:
         "Explain event delegation",
       type: "JavaScript"
