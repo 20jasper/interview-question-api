@@ -3,6 +3,14 @@ This is a full stack web dev interview flashcard app containing 150+ questions c
 
 **Link to project:** https://full-stack-interview-prep.up.railway.app/
 
+- [Full Stack Web Development Interview Questions](#full-stack-web-development-interview-questions)
+  - [How It's Made:](#how-its-made)
+  - [Optimizations](#optimizations)
+  - [Lessons Learned:](#lessons-learned)
+  - [Installation](#installation)
+  - [Dependencies](#dependencies)
+  - [Usage](#usage)
+
 <p align="center">
   <img src="https://github.com/bytesbybianca/readme-assets/blob/main/project-images/fullStackInterviewQuestions.gif?raw=true">
 </p>
