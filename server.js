@@ -4,6 +4,8 @@ import url from "url";
 // import querystring from 'querystring'
 import figlet from "figlet";
 import { banki } from "./js/banki.js";
+
+const PORT = process.env.PORT || 8000
 const server = http.createServer((req, res) => {
 	const readWrite = (file, contentType) => {
 		fs.readFile(file, function (err, data) {
@@ -52,4 +54,4 @@ const server = http.createServer((req, res) => {
 	}
 });
 
-server.listen(8000);
+server.listen(PORT);
