@@ -16,4 +16,4 @@ async function makeReq() {
 	document.querySelector("#question").innerHTML = data.question;
 	let qType = data.type;
 	document.querySelector("#questionType").textContent = `${qType.charAt(0).toUpperCase() + qType.slice(1)}`;
-}
+};
