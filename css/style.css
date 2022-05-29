@@ -1,8 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap");
 
 html * {
 	font-family: "Rubik", sans-serif;
 	box-sizing: border-box;
+}
+
+code {
+	background-color: #dedbe0;
+	border-radius: 3px;
+	font-family: "DM Mono", "Courier New", Courier, monospace;
+	font-weight: 400;
+	padding: 3px 6px;
+	color: gray;
+}
+
+body > * {
+	border: color;
 }
 
 body {
@@ -48,6 +62,10 @@ section::before {
 	z-index: -1;
 }
 
+h2 {
+	line-height: 3rem;
+}
+
 h1 {
 	margin-top: 0;
 	color: #25262e;
@@ -63,7 +81,7 @@ button {
 	/* Variables */
 	--button_radius: 0.75em;
 	--button_color: #e8e8e8;
-	--button_outline_color: #25262e;
+	--button_outline_color: #4cb2b6;
 	font-size: 17px;
 	font-weight: bold;
 	border: none;
