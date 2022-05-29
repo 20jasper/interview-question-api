@@ -1,5 +1,3 @@
-// Any questions on this list are fair game for technical interviews.
-// Resources with most answers at the end.
 export const banki = {
 	questions: [
 		{

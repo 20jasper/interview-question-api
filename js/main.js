@@ -9,7 +9,7 @@ async function makeReq() {
 	document.querySelector("main").classList.add("animate__animated", "animate__bounceIn");
 	document.querySelector("main").classList.remove("hidden");
 	document.querySelector("main").addEventListener("animationend", () => {
-		document.querySelector("main").classList.remove("animate__animated");
-		document.querySelector("main").classList.remove("animate__bounceIn");
+	document.querySelector("main").classList.remove("animate__animated");
+	document.querySelector("main").classList.remove("animate__bounceIn");
 	});
 }
