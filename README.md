@@ -5,7 +5,6 @@ This is a full stack web dev interview flashcard app containing 150+ questions c
 
 - [Full Stack Web Development Interview Questions](#full-stack-web-development-interview-questions)
   - [How It's Made:](#how-its-made)
-  - [Optimizations](#optimizations)
   - [Lessons Learned:](#lessons-learned)
   - [Installation](#installation)
   - [Dependencies](#dependencies)
@@ -17,24 +16,17 @@ This is a full stack web dev interview flashcard app containing 150+ questions c
 
 ## How It's Made:
 
-**Tech used** 
-<br>
-Front-end: HTML, CSS, JavaScript 
-<br>
-Back-end: Node.js
+**Front-end:** HTML, CSS, JavaScript 
+
+**Back-end:** Node.js
 <br>
 
 
-[@AlysshaLewin](https://github.com/AlysshaLewin), [@20jasper](https://github.com/20jasper), [@Ethodeus](https://github.com/Ethodeus), [@bytesbybianca](https://github.com/bytesbybianca), [@erikateal](https://github.com/erikateal), [@brendondsouza](https://github.com/brendondsouza), [@alondramora](https://github.com/alondramora), and [@Danamitecoder](https://github.com/Danamitecoder) collaborated to build this project. We split into two groups—one group built the.
-
-
-## Optimizations
-
-
+[@AlysshaLewin](https://github.com/AlysshaLewin), [@20jasper](https://github.com/20jasper), [@Ethodeus](https://github.com/Ethodeus), [@bytesbybianca](https://github.com/bytesbybianca), [@erikateal](https://github.com/erikateal), [@brendondsouza](https://github.com/brendondsouza), [@alondramora](https://github.com/alondramora), and [@Danamitecoder](https://github.com/Danamitecoder) collaborated to build this project. We split into two groups—one group built the front end, and the other built the backend.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+This app taught us how to bring together the front and back end. We learned how to import and export modules as well as make our own custom modules. We learned how to use environment variables to dynamically change the port. We used innerHTML so we could use &lt;code&gt; tags to style code in the questions and HTML entities to escape certain characters like '&lt;' and '&gt;' that are misinterpreted as code.
 
 ## Installation
 ```
