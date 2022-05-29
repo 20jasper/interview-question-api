@@ -30,6 +30,6 @@ No matter what your experience level, being an engineer means continuously learn
 
 ## Dependencies
 ```
-idk code stuff
+"figlet": "^1.5.2"
 ```
 
