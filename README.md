@@ -22,7 +22,7 @@ This is a full stack web dev interview flashcard app containing 150+ questions c
 <br>
 
 
-[@AlysshaLewin](https://github.com/AlysshaLewin), [@20jasper](https://github.com/20jasper), [@Ethodeus](https://github.com/Ethodeus), [@bytesbybianca](https://github.com/bytesbybianca), [@erikateal](https://github.com/erikateal), [@brendondsouza](https://github.com/brendondsouza), [@alondramora](https://github.com/alondramora), and [@Danamitecoder](https://github.com/Danamitecoder) collaborated to build this project. We split into two groups—one group built the front end, and the other built the backend.
+[@AlysshaLewin](https://github.com/AlysshaLewin), [@20jasper](https://github.com/20jasper), [@Ethodeus](https://github.com/Ethodeus), [@bytesbybianca](https://github.com/bytesbybianca), [@erikateal](https://github.com/erikateal), [@brendondsouza](https://github.com/brendondsouza), [@alondramora](https://github.com/alondramora), and [@Danamitecoder](https://github.com/Danamitecoder) collaborated to build this project. We split into two groups—one group built the front end, and the other built the back end.
 
 ## Lessons Learned:
 
