@@ -1,7 +1,7 @@
 document.querySelector("#clickMe").addEventListener("click", newQuestion);
 
-function newQuestion() {
-	makeReq()
+async function newQuestion() {
+	await makeReq()
 	document.querySelector("section").classList.add("animate__animated", "animate__bounceIn");
 	document.querySelector("section").classList.remove("hidden");
 	document.querySelector("section").addEventListener("animationend", () => {
