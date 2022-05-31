@@ -4,6 +4,13 @@
 html * {
 	font-family: "Rubik", sans-serif;
 	box-sizing: border-box;
+	font-size: 100%;
+}
+
+@media (max-width: 800px){
+	html{
+		font-size: 67.5%;
+	}
 }
 
 code {
@@ -26,7 +33,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 12rem;
 }
 
 main div {
@@ -57,6 +64,13 @@ section {
 	position: relative;
 }
 
+@media (max-width: 800px){
+	section{
+		width: 80%;
+		
+	}
+}
+
 section::before {
 	content: "";
 	position: absolute;
@@ -69,6 +83,7 @@ section::before {
 
 h2 {
 	line-height: 3rem;
+	font-size: 1.5rem;
 }
 
 h1 {
