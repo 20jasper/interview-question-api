@@ -26,13 +26,18 @@ body {
 	align-items: center;
 	height: 100vh;
 	text-align: center;
+	padding-top: 10%;
 }
 
-main {
+main div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
+}
+
+.top {
+	align-self: flex-start;
 }
 
 .hidden {
