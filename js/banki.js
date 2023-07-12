@@ -264,7 +264,7 @@ export const banki = {
 		},
 		{
 			question:
-				"Explain why the following doesn't work as an IIFE: function <code>foo(){ }();</code>. What needs to be changed to properly make it an IIFE?",
+				"Explain why the following doesn't work as an IIFE: <code>function foo(){ }();</code>. What needs to be changed to properly make it an IIFE?",
 			type: "JavaScript",
 		},
 		{
@@ -417,7 +417,7 @@ export const banki = {
 			type: "JavaScript",
 		},
 		{
-			question: "Explain the differences on the usage of foo between function <code>foo() {}</code> and <code>var foo = function() {}</code>",
+			question: "Explain the differences on the usage of foo between <code>function foo() {}</code> and <code>var foo = function() {}</code>",
 			type: "JavaScript",
 		},
 		{
